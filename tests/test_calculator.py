@@ -11,3 +11,9 @@ def test_multiply():
 
 def test_divide():
     assert divide(10, 2) == 5
+
+def test_add_negative_numbers():
+    assert add(-5, -3) == -8
+
+def test_divide_negative_result():
+    assert divide(10, -2) == -5
